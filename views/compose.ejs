@@ -1,0 +1,11 @@
+<%- include('partials/header'); -%>
+<h1>Compose</h1>
+
+<form action="/compose" method="post" style="display: flex; flex-direction: column; ">
+<h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Title</h3>
+<input type="text" name="title" style="width: 60vw; height:5vh ;">
+<h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Post</h3>
+<textarea name="blog" style="width: 60vw; height:25vh ;"></textarea>
+<button type="submit" style="width: 150px; background-color: #1ABC9C; height: 25px;">Publish</button>
+</form>
+<%- include('partials/footer'); -%>
